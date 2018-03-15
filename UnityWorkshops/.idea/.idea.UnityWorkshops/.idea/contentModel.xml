@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Teun van Laarhoven\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_UnityWorkshops.-1782872723.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Teun van Laarhoven\Desktop\ICT HW\Semester 4\GameDesign\GTO\Workshops\UnityWorkshops" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="GridModule" t="Include">
+          <e p="Cell.cs" t="Include" />
+          <e p="Map.cs" t="Include" />
+          <e p="Unit.cs" t="Include" />
+          <e p="UnitFactory.cs" t="Include" />
+        </e>
+        <e p="ResourceModule" t="Include">
+          <e p="(Extra)" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="AdvResourceUI.cs" t="Include" />
+              <e p="Comment.cs" t="Include" />
+              <e p="SOResource.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Resource.cs" t="Include" />
+          <e p="ResourceUI.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="UnityWorkshops.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
