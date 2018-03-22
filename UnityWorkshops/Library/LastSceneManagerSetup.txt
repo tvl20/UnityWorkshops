@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GridModule/GridModule.unity
+- path: Assets/SelectionModule/SelectionModule.unity
   isLoaded: 1
   isActive: 1

@@ -55,11 +55,14 @@
      <Compile Include="Assets\GridModule\Map.cs" />
      <Compile Include="Assets\GridModule\Unit.cs" />
      <Compile Include="Assets\GridModule\UnitFactory.cs" />
+     <Compile Include="Assets\MultiplayerModule\Player.cs" />
+     <Compile Include="Assets\MultiplayerModule\TurnManager.cs" />
      <Compile Include="Assets\ResourceModule\(Extra)\Scripts\AdvResourceUI.cs" />
      <Compile Include="Assets\ResourceModule\(Extra)\Scripts\Comment.cs" />
      <Compile Include="Assets\ResourceModule\(Extra)\Scripts\SOResource.cs" />
      <Compile Include="Assets\ResourceModule\Resource.cs" />
      <Compile Include="Assets\ResourceModule\ResourceUI.cs" />
+     <Compile Include="Assets\SelectionModule\UnitSpawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

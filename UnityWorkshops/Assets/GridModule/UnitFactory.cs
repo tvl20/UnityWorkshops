@@ -9,10 +9,7 @@ public class UnitFactory : MonoBehaviour
 
     public List<ResourceCost> Costs;
     
-    // Temporary until we figure out a better way to decide where to spawn.
-    public Vector2Int SpawnCoordinate;
-
-    public void SpawnUnit()
+    public void SpawnUnit(Cell spawnCell)
     {
 
         bool canAfford = true;
@@ -33,9 +30,8 @@ public class UnitFactory : MonoBehaviour
             }
 
             Unit newUnit = Instantiate(Prototype);
-            Cell cell = Map.GetCell(SpawnCoordinate.x, SpawnCoordinate.y);
         
-            newUnit.transform.SetParent(cell.transform, false);
+            newUnit.transform.SetParent(spawnCell.transform, false);
         }
         else
         {

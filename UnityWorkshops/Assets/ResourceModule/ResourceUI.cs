@@ -61,4 +61,10 @@ public class ResourceUI : MonoBehaviour
             yield return null; 
         }
     }
+
+    void OnEnable()
+    {
+        cachedValue = resource.GetQuantity();
+        Value.text = cachedValue.ToString();
+    }
 }
